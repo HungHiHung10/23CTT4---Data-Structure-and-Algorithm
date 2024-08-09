@@ -1,2 +1,2 @@
 # haha
-first at Github
+first at GitHub
