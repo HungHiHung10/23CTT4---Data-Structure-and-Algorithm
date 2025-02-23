@@ -1,0 +1,81 @@
+
+    // 1.
+    string str;
+    cin >> str; // cout << str;
+    ReverseString(str.c_str());
+    cout << endl;
+
+    // 2.
+    int n;
+    cin >> n;
+    DecToBin(n);
+    cout << endl;
+
+    // 3.
+    string S;
+    cin >> S; // cout << str;
+    CheckBalance(S.c_str());
+    cout << endl;
+
+
+
+
+
+    
+    // // int n;
+    // // cin >> n;
+    // // List *L = nullptr;
+    // // int value;
+    // // for (int i = 0; i < n; i++)
+    // // {
+    // //     // addHead(L, i);
+    // //     cin >> value;
+    // //     addTail(L, value);
+    // // }
+    // // removeDuplicate(L);
+    // // printList(L);
+    // // removeAll(L);
+    // // cout << endl << L->p_head->key << " " << L->p_tail->key << endl;
+    // // removeHead(L);
+    // // removeTail(L);
+    // // cout << endl << L->p_head->key << " " << L->p_tail->key << endl;
+
+    // // cout << countElements(L) << endl;
+    // // List* rL = reverseList(L);
+    // // printList(L);
+    // // printList(rL);
+    // // removeAll(rL);
+
+    // // printList(L);
+    // // // removeElement(L, 4);
+    // // // addPos(L, 1000, 9);
+    // // // removePos(L, 5);
+    // // printList(L);
+    // // removeAll(L);
+
+    int n1, n2;
+    cin >> n1 >> n2;
+    List *L1 = nullptr;
+    List *L2 = nullptr;
+    for (int i = 0; i < n1; i++)
+    {
+        addTail(L1, i);
+    }
+    for (int i = 0; i < n2; i++)
+    {
+        addTail(L2, i + 20);
+    }
+
+    List *L3 = ConcatList(L1, L2);
+    // // printList(L3);
+
+    // // MergeList(L1, L2);
+    printList(L1);
+    printList(L2);
+    printList(L3);
+
+    removeAll(L1);
+    removeAll(L2);
+    removeAll(L3);
+
+    

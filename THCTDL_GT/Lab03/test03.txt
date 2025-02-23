@@ -1,0 +1,55 @@
+
+    // 1. -> 10.
+    int n;
+    cin >> n;
+    int a[10];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
+    }
+    NODE *BST = createTree(a, n);
+    // Insert(BST, 9999);
+    // if (Search(BST, 9999) != nullptr)
+    // {
+    //     cout << "Found!\n";
+    // }
+    // else
+    // {
+    //     cout << "Not Found!\n";
+    // }
+    // NLR(BST);
+    // cout << endl;
+    // LNR(BST);
+    // cout << endl;
+    // LRN(BST);
+    // cout << endl;
+    // LevelOrder(BST);
+    // cout << endl;
+    // Remove(BST, 20);
+    // cout << endl;
+    // LevelOrder(BST);
+
+    // // 10. -> 20.
+    // cout << Height(BST) << endl;
+    // cout << countNode(BST) << endl;
+    // cout << heightNode(BST, 333) << endl;
+    // cout << countLeaf(BST) << endl;
+    // cout << countLess(BST, 110) << endl;
+    // cout << countGreater(BST, 1) << endl;
+    // if (isBST(BST))
+    // {
+    //     cout << "is BST\n";
+    // }
+    // else
+    // {
+    //     cout << "not is BST\n";
+    // }
+    // if (isFullBST(BST))
+    // {
+    //     cout << "is full BST\n";
+    // }
+    // else
+    // {
+    //     cout << "not full BST\n";
+    // }
+    // removeTree(BST);
