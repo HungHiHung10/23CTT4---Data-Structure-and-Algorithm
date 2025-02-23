@@ -1,0 +1,88 @@
+    // for (int i = 1; i <= N; i++)
+    // {
+    //     cout << i << " ";
+    //     for (int neighbor : listAdj[i].vertices)
+    //     {
+    //         cout << neighbor << " ";
+    //     }
+    //     cout << endl;
+    // }
+    // vector<int> parentTrace(listAdj.size() + 1, 0);
+        // stack<int> Stack;
+        // Stack.push(1);
+        // color[1] = 'G';
+        // while (!Stack.empty())
+        // {
+        //     int vertex = Stack.top();
+        //     Stack.pop();
+        //     for (int neighbor : listAdj[vertex].vertices)
+        //     {
+        //         if (color[vertex] == 'W')
+        //         {
+        //             Stack.push(neighbor);
+        //             color[neighbor] = 'G';
+        //             parentTrace[neighbor] = vertex;
+        //         }
+        //         else
+        //         {
+        //             if (parentTrace[neighbor] != vertex && listAdj[neighbor].vertices.find(vertex) != listAdj[neighbor].vertices.end())
+        //             {
+        //                 return true;
+        //             }
+        //         }
+        //     }
+        //     color[vertex] = 'B';
+        // }
+        // for (int i = 1; i <= listAdj.size(); i++)
+        // {
+        //     cout << i << ": " << parentTrace[i] << endl;
+        // }
+        // return false;//* DFS
+//* Kiểm tra sự tồn tại đường đi từ đỉnh u đến đỉnh v
+//* BFS
+//* Tìm 1 đường đi ngắn nhất từ đỉnh u đến đỉnh v
+    // cout << endl;
+    // while (!topologicalListtransposeG.empty())
+    // {
+    //     cout << topologicalListtransposeG.top() << " ";
+    //     topologicalListtransposeG.pop();
+    // }
+        // stack<int> topologicalListtransposeG;
+    // for (int i = 1; i <= N; i++)
+    // {
+    //     if (!visited[i])
+    //     {
+    //         DFS(transposeG, visited, i);
+    //     }
+    // }
+    // cout << stronglyconnectedComponent << endl;
+    // #include <bits/stdc++.h>
+// // #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     vector<int> a(n);
+//     for (int &x : a)
+//     {
+//         cin >> x;
+//     }
+//     for (int x : a)
+//     {
+//         cout << x << " ";
+//     }
+//     return 0;
+// }
+// FILL(visited, false);
+        // while (!topologicalList.empty())
+        // {
+        //     cout << topologicalList.top() << " ";
+        //     int vertex = topologicalList.top();
+        //     if (!visited[vertex])
+        //     {
+        //         DFS(transposeG, visited, vertex);
+        //         stronglyconnectedComponent++;
+        //     }
+        //     topologicalList.pop();
+        // }

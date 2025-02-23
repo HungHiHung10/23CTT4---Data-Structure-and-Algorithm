@@ -1,0 +1,18 @@
+{
+  "files.associations": {
+    "xiosbase": "cpp",
+    "vector": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "xtree": "cpp",
+    "format": "cpp",
+    "initializer_list": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp",
+    "queue": "cpp"
+  }
+}
